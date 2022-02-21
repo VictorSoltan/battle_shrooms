@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/battle_shrooms/static/css/main.defea02c.css",
-    "main.js": "/battle_shrooms/static/js/main.8d955c4e.js",
+    "main.css": "/battle_shrooms/static/css/main.3ca164c4.css",
+    "main.js": "/battle_shrooms/static/js/main.11ba3c9f.js",
     "static/js/787.e99900d5.chunk.js": "/battle_shrooms/static/js/787.e99900d5.chunk.js",
     "static/media/hero_shroom_4-transcode.mp4": "/battle_shrooms/static/media/hero_shroom_4-transcode.dbde734a8be0fae5acf6.mp4",
     "static/media/Frame5994.png": "/battle_shrooms/static/media/Frame5994.faa1eca38dadd596d065.png",
@@ -19,8 +19,8 @@
     "static/media/Pavel.png": "/battle_shrooms/static/media/Pavel.0088c368a9421302cb5a.png",
     "static/media/Viktor.png": "/battle_shrooms/static/media/Viktor.7010555aa313fe1a2b89.png",
     "static/media/shrooms_back2 1.png": "/battle_shrooms/static/media/shrooms_back2 1.4b5b2081ad14671b99e5.png",
+    "static/media/Magicut.png": "/battle_shrooms/static/media/Magicut.52923439c4a0e74f605f.png",
     "static/media/logo_gold.png": "/battle_shrooms/static/media/logo_gold.8fe4c19cc069978ef03a.png",
-    "static/media/Magicut.png": "/battle_shrooms/static/media/Magicut.3258e501b5b5053dcbec.png",
     "static/media/shrooms_back_night2.png": "/battle_shrooms/static/media/shrooms_back_night2.284bf311e5b558384a35.png",
     "static/media/Vespertine.png": "/battle_shrooms/static/media/Vespertine.dc85122bc4067e777cde.png",
     "static/media/shrooms_back_night1.png": "/battle_shrooms/static/media/shrooms_back_night1.a05075e12cba38451d9b.png",
@@ -43,6 +43,7 @@
     "static/media/legion_ventures.png": "/battle_shrooms/static/media/legion_ventures.33466891bfe9534f5a89.png",
     "static/media/Group2.png": "/battle_shrooms/static/media/Group2.bc9417f259110adcd707.png",
     "static/media/Enjinstarter.png": "/battle_shrooms/static/media/Enjinstarter.29a57defb195e3259be8.png",
+    "static/media/DAOMaker.png": "/battle_shrooms/static/media/DAOMaker.c3f4c4b67e2961071739.png",
     "static/media/CCK.png": "/battle_shrooms/static/media/CCK.586e0e2f0ac42480f751.png",
     "static/media/markerwatch.png": "/battle_shrooms/static/media/markerwatch.2a07a8092099f41a7e5c.png",
     "static/media/asiaOne.png": "/battle_shrooms/static/media/asiaOne.400158378af95b6c3041.png",
@@ -60,6 +61,7 @@
     "static/media/AVG.png": "/battle_shrooms/static/media/AVG.ea92e58827af77c48cdd.png",
     "static/media/2A.png": "/battle_shrooms/static/media/2A.74d95808214eb4c5f380.png",
     "static/media/Oxbull.png": "/battle_shrooms/static/media/Oxbull.8b59385b458bfff4e1e6.png",
+    "static/media/CSPDAO.png": "/battle_shrooms/static/media/CSPDAO.3be43e4977530b755b5f.png",
     "static/media/Yahoo_Money.png": "/battle_shrooms/static/media/Yahoo_Money.c2fac2cfea0c24eccfbf.png",
     "index.html": "/battle_shrooms/index.html",
     "static/media/blue.svg": "/battle_shrooms/static/media/blue.f6745aa42df9d918111a08da45d10f53.svg",
@@ -87,12 +89,12 @@
     "static/media/artstation.svg": "/battle_shrooms/static/media/artstation.6d96881b311c29576627ef880dbb99b4.svg",
     "static/media/arrowRight.svg": "/battle_shrooms/static/media/arrowRight.7feb1888d8f308f90e6e0cd7ebe88e8f.svg",
     "static/media/arrowLeft.svg": "/battle_shrooms/static/media/arrowLeft.ac6eb24cfb596ea062fafe9299980bdf.svg",
-    "main.defea02c.css.map": "/battle_shrooms/static/css/main.defea02c.css.map",
-    "main.8d955c4e.js.map": "/battle_shrooms/static/js/main.8d955c4e.js.map",
+    "main.3ca164c4.css.map": "/battle_shrooms/static/css/main.3ca164c4.css.map",
+    "main.11ba3c9f.js.map": "/battle_shrooms/static/js/main.11ba3c9f.js.map",
     "787.e99900d5.chunk.js.map": "/battle_shrooms/static/js/787.e99900d5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.defea02c.css",
-    "static/js/main.8d955c4e.js"
+    "static/css/main.3ca164c4.css",
+    "static/js/main.11ba3c9f.js"
   ]
 }
