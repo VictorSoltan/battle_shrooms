@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/battle_shrooms/static/css/main.410caff4.css",
-    "main.js": "/battle_shrooms/static/js/main.bb6a08c2.js",
+    "main.css": "/battle_shrooms/static/css/main.f8e2d0d7.css",
+    "main.js": "/battle_shrooms/static/js/main.ee5ba4a3.js",
     "static/js/787.e99900d5.chunk.js": "/battle_shrooms/static/js/787.e99900d5.chunk.js",
     "static/media/hero_shroom_4-transcode.mp4": "/battle_shrooms/static/media/hero_shroom_4-transcode.dbde734a8be0fae5acf6.mp4",
     "static/media/Frame5994.png": "/battle_shrooms/static/media/Frame5994.faa1eca38dadd596d065.png",
@@ -65,12 +65,19 @@
     "static/media/Yahoo_Money.png": "/battle_shrooms/static/media/Yahoo_Money.c2fac2cfea0c24eccfbf.png",
     "index.html": "/battle_shrooms/index.html",
     "static/media/green4.svg": "/battle_shrooms/static/media/green4.7adc0f25145d790732e42b72dffd7465.svg",
+    "static/media/Group6004.svg": "/battle_shrooms/static/media/Group6004.9536004521ba27cf6be9a7ca0fd0b384.svg",
     "static/media/blue.svg": "/battle_shrooms/static/media/blue.f6745aa42df9d918111a08da45d10f53.svg",
+    "static/media/Group6005.svg": "/battle_shrooms/static/media/Group6005.b7910c072bfee09055749d0b925bc9c2.svg",
     "static/media/blue4.svg": "/battle_shrooms/static/media/blue4.85ad5539155e9b112121c4c309c9cb3c.svg",
     "static/media/discord.svg": "/battle_shrooms/static/media/discord.591296b0e828958b3a70fe123c1baf9b.svg",
     "static/media/blue1.svg": "/battle_shrooms/static/media/blue1.17e444f27fd652d7bf1addd1093dfcfe.svg",
+    "static/media/Group6006.svg": "/battle_shrooms/static/media/Group6006.25d6a79b0b3341589ae1bd2faf34a80c.svg",
     "static/media/blue2.svg": "/battle_shrooms/static/media/blue2.89b1be1885ec4fd87ecf6d264817b017.svg",
     "static/media/blue3.svg": "/battle_shrooms/static/media/blue3.25c9f9e4585ab3d7b63e0ef67174f42c.svg",
+    "static/media/Group6003.svg": "/battle_shrooms/static/media/Group6003.e219a5b8df6f453491aa27d02522cc31.svg",
+    "static/media/Group6002.svg": "/battle_shrooms/static/media/Group6002.c26185b0fe52684b0ceb81fa481d689b.svg",
+    "static/media/Group6008.svg": "/battle_shrooms/static/media/Group6008.e0eece41e81422f803e57a38fe0d7b91.svg",
+    "static/media/Group6007.svg": "/battle_shrooms/static/media/Group6007.3e5fcaadfe05bdc37ce184dfdc9928bc.svg",
     "static/media/green2.svg": "/battle_shrooms/static/media/green2.d9373a09576e63bfb264af9d9c473636.svg",
     "static/media/green3.svg": "/battle_shrooms/static/media/green3.7f9f7211d8d02cbe1d70dfa635b4d34f.svg",
     "static/media/green.svg": "/battle_shrooms/static/media/green.943ccae50bafede12c0439a4e2d8998e.svg",
@@ -86,12 +93,12 @@
     "static/media/artstation.svg": "/battle_shrooms/static/media/artstation.6d96881b311c29576627ef880dbb99b4.svg",
     "static/media/arrowRight.svg": "/battle_shrooms/static/media/arrowRight.7feb1888d8f308f90e6e0cd7ebe88e8f.svg",
     "static/media/arrowLeft.svg": "/battle_shrooms/static/media/arrowLeft.ac6eb24cfb596ea062fafe9299980bdf.svg",
-    "main.410caff4.css.map": "/battle_shrooms/static/css/main.410caff4.css.map",
-    "main.bb6a08c2.js.map": "/battle_shrooms/static/js/main.bb6a08c2.js.map",
+    "main.f8e2d0d7.css.map": "/battle_shrooms/static/css/main.f8e2d0d7.css.map",
+    "main.ee5ba4a3.js.map": "/battle_shrooms/static/js/main.ee5ba4a3.js.map",
     "787.e99900d5.chunk.js.map": "/battle_shrooms/static/js/787.e99900d5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.410caff4.css",
-    "static/js/main.bb6a08c2.js"
+    "static/css/main.f8e2d0d7.css",
+    "static/js/main.ee5ba4a3.js"
   ]
 }
