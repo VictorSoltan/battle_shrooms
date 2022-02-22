@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/battle_shrooms/static/css/main.688434c4.css",
-    "main.js": "/battle_shrooms/static/js/main.b087d526.js",
+    "main.css": "/battle_shrooms/static/css/main.410caff4.css",
+    "main.js": "/battle_shrooms/static/js/main.bb6a08c2.js",
     "static/js/787.e99900d5.chunk.js": "/battle_shrooms/static/js/787.e99900d5.chunk.js",
     "static/media/hero_shroom_4-transcode.mp4": "/battle_shrooms/static/media/hero_shroom_4-transcode.dbde734a8be0fae5acf6.mp4",
     "static/media/Frame5994.png": "/battle_shrooms/static/media/Frame5994.faa1eca38dadd596d065.png",
@@ -86,12 +86,12 @@
     "static/media/artstation.svg": "/battle_shrooms/static/media/artstation.6d96881b311c29576627ef880dbb99b4.svg",
     "static/media/arrowRight.svg": "/battle_shrooms/static/media/arrowRight.7feb1888d8f308f90e6e0cd7ebe88e8f.svg",
     "static/media/arrowLeft.svg": "/battle_shrooms/static/media/arrowLeft.ac6eb24cfb596ea062fafe9299980bdf.svg",
-    "main.688434c4.css.map": "/battle_shrooms/static/css/main.688434c4.css.map",
-    "main.b087d526.js.map": "/battle_shrooms/static/js/main.b087d526.js.map",
+    "main.410caff4.css.map": "/battle_shrooms/static/css/main.410caff4.css.map",
+    "main.bb6a08c2.js.map": "/battle_shrooms/static/js/main.bb6a08c2.js.map",
     "787.e99900d5.chunk.js.map": "/battle_shrooms/static/js/787.e99900d5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.688434c4.css",
-    "static/js/main.b087d526.js"
+    "static/css/main.410caff4.css",
+    "static/js/main.bb6a08c2.js"
   ]
 }
