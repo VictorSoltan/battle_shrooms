@@ -2,6 +2,8 @@ import React from 'react'
 
 import '../styles/header_banner.scss'
 
+import Button from './button'
+
 // PARTICLES 
 import Blue from '../assets/header/particles/blue.svg'
 import Blue1 from '../assets/header/particles/blue1.svg'
@@ -105,9 +107,9 @@ export default function HeaderBanner() {
             <h4>Battleverse’s<br/> SECOND RACE</h4>
           </div>
           <h2  style={{display: window.innerWidth < 800 ? 'none' : 'block' }}>Mint your first<br/> Shroom, <span>join the<br/> adventure!</span></h2>
-          <div className='links' style={{display: window.innerWidth < 800 ? 'none' : 'block' }}>
+          <div className='links' style={{display: window.innerWidth < 800 ? 'none' : 'flex' }}>
             {[{link: 'http://shrooms.battleverse.io', value: 'MINT'}].map((item, index) => (
-              <a key={index} 
+              <a className='mint' key={index} 
                 onMouseDown={e => {e.target.style.fontSize = '16px'; e.target.style.marginInline = '2px'; e.target.style.filter = 'brightness(85%)'}}
                 onMouseLeave={e => {e.target.style.fontSize = '18px'; e.target.style.marginInline = '0px'; e.target.style.filter = 'brightness(100%)'}} 
                 onMouseUp={e => {e.target.style.fontSize = '18px'; e.target.style.marginInline = '0px'; e.target.style.filter = 'brightness(100%)'}} 
@@ -115,16 +117,16 @@ export default function HeaderBanner() {
                 {item.value}
               </a>
             ))}
-            <div id="via-widget" data-id="ace4c308-e20d-4a70-82eb-91db2fea7a89"/>
+            <Button />
           </div>          
         </div>
         <div className='threeD'>
           <div className='particles'/>
           <video controls={false} src={window.innerWidth > 1024 ? Video : VideoAdaptive} loop={true} muted={true} autoPlay={true} playsInline={true} />            
           <h2 style={{display: window.innerWidth < 800 ? 'block' : 'none' }}>Mint your first {window.innerWidth > 800 &&<br/>} Shroom, <span>join the<br/> adventure!</span></h2>
-          <div className='links' style={{display: window.innerWidth < 800 ? 'block' : 'none' }}>
+          <div className='links' style={{display: window.innerWidth < 800 ? 'flex' : 'none' }}>
             {[{link: 'http://shrooms.battleverse.io', value: 'MINT'}].map((item, index) => (
-              <a key={index} 
+              <a className='mint' key={index} 
                 onMouseDown={e => {e.target.style.fontSize = '16px'; e.target.style.marginInline = '2px'; e.target.style.filter = 'brightness(85%)'}}
                 onMouseLeave={e => {e.target.style.fontSize = '18px'; e.target.style.marginInline = '0px'; e.target.style.filter = 'brightness(100%)'}} 
                 onMouseUp={e => {e.target.style.fontSize = '18px'; e.target.style.marginInline = '0px'; e.target.style.filter = 'brightness(100%)'}} 
@@ -132,6 +134,7 @@ export default function HeaderBanner() {
                 {item.value}
               </a>
             ))}
+            <Button />
           </div>                 
         </div>
       </div>

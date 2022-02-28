@@ -393,8 +393,10 @@
         width: 120%;
         z-index: -9999;
         margin: -30.4% 0 -18% -8%;
+        overflow: hidden;
+        outline: none;
         @media (max-width: 800px) {
-          width: 90%;
+          width: 100%;
           margin: -20% 0 -12% 0%;
         }
       }
@@ -430,8 +432,7 @@
       margin-left: 5%;
     }
     @media (max-width: 600px) {
-      margin-top: 8.2%;
-      margin-bottom: -6%;
+      margin-bottom: -2%;
     }
     a {
       display: flex;
@@ -457,16 +458,20 @@
   }
   .links {
     display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 64%;
     margin: 5em 0;
     @media (max-width: 800px) {
+      justify-content: flex-start;
       margin: 1.4em 0 1.8em;
       width: 100%;
     }
-    a {
+    .mint {
       border-radius: 14px;
       color: white;
       text-decoration: none;
-      padding: 2% 15%;
+      padding: 4% 20%;
       font-family: Dela Gothic One;
       font-style: normal;
       font-weight: normal;
@@ -475,11 +480,11 @@
       transition: all 0.2s;
       background: rgba(0, 255, 163, 0.1);
       border: 2px solid #00ffa3;
-      @media (max-width: 500px) {
-        padding: 2.8% 41.5%;
+      @media (max-width: 800px) {
+        padding: 2.8% 20.5%;
       }
-      @media (max-width: 420px) {
-        padding: 2.8% 40%;
+      @media (max-width: 500px) {
+        padding: 2.8% 14%;
       }
       &:hover {
         background: #00ffa3;

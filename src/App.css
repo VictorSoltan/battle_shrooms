@@ -13,6 +13,37 @@ body {
 .App {
   overflow-x: hidden !important;
 }
+#via-widget-inner{box-sizing:border-box}
+#via-widget-inner{width:180px;min-width:180px;text-align:center;font-family:Work Sans,sans-serif}
+#via-widget-inner a{text-decoration:none}
+#via-title{margin-bottom:.5em;font-size:40px;line-height:1em;font-weight:600}
+#via-status{margin-bottom:20px;font-size:17px;line-height:23px;color:#a09da6}
+#via-amount,
+#via-set,
+#via-unit{color:#3dcf91}
+#via-prev-link{text-decoration:none}
+#via-prev{max-width:100%;height:auto}
+#via-mint-button{
+  display:inline-flex;align-items:center;
+  border:1px solid #3dcf91;border-radius:8px;
+  padding:6px 7px 6px 17px;background-color:#15121d;font-style:normal;
+  font-weight:700;font-size:16px;line-height:16px;
+  color:#fff;text-align:center;text-decoration:none;transition:all .3s ease}
+#via-mint-button:hover{
+  background-color:#3dcf91}
+#via-mint-button:active{
+  background-color:#339269}
+#via-currencies{
+  height:24px;margin-left:16px}
+#via-currencies img{
+  display:inline-block}
+#via-currencies img+img{
+  margin-left:-10px}
+#via-by{
+  margin-top:8px;font-size:11px;color:#a09da6
+}
+#via-logo{
+  pointer-events:none}
 /* .App-logo {
   height: 40vmin;
   pointer-events: none;

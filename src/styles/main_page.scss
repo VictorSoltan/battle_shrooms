@@ -441,15 +441,8 @@
       }
       @media (max-width: 1024px) {
         width: 8%;
-        height: 28% !important;
       }
-      @media (max-width: 800px) {
-        width: 14%;
-        height: 32% !important;
-      }
-      @media (max-width: 600px) {
-        height: 20% !important;
-      }
+
       &:first-child{
         left: 0;
         @media (max-width: 800px) {
@@ -459,13 +452,16 @@
       &:last-child{
         margin-top: 18em;
         right: 0;
-        height: 18em;
         @media (max-width: 800px) {
           margin-top: -39.5em;
         }
         @media (max-width: 800px) {
           margin-top: -35.5em;
+          width: 12%;
         }
+        @media (max-width: 600px) {
+          width: 4em;
+        }        
       }      
     }
     .shroomContainer{

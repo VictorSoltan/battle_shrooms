@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600&display=swap');
+
+#via-widget-inner,
+#via-widget-inner * {
+  box-sizing: border-box;
+}
+
+#via-widget-inner {
+  min-width: 180px;
+  text-align: center;
+  font-family: 'Work Sans', sans-serif;
+  @media (max-width: 800px) {
+    margin-left: 20px;
+    width: 40%;
+  }
+  @media (max-width: 400px) {
+    margin-left: 10px;
+    min-width: 150px;
+  }
+}
+
+#via-widget-inner a {
+  text-decoration: none;
+}
+
+#via-title {
+  margin-bottom: 0.5em;
+  font-size: 40px;
+  line-height: 1em;
+  font-weight: 600;
+}
+
+#via-status {
+  margin-bottom: 20px;
+  font-size: 17px;
+  line-height: 23px;
+  color: #A09DA6;
+}
+
+#via-unit,
+#via-amount,
+#via-set {
+  color: #3DCF91
+}
+
+#via-prev-link {
+  text-decoration: none;
+}
+
+#via-prev {
+  max-width: 100%;
+  height: auto;
+}
+
+#via-mint-button {
+  display: inline-flex;
+  align-items: center;
+  border: 1px solid #3DCF91;
+  border-radius: 8px;
+  padding: 6px 7px 6px 17px;
+  background-color: #15121D;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 16px;
+  color: #FFFFFF;
+  text-align: center;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  @media (max-width: 800px) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2.8% 10%;
+  }
+  @media (max-width: 500px) {
+    padding: 2.8% 2%;
+  }
+  span{
+    @media (max-width: 800px) {
+      width: 50%;
+      line-height: 24px;
+    }
+    @media (max-width: 400px) {
+      font-size: 12px;
+      width: 40%;
+    }
+  }
+}
+
+#via-mint-button:hover {
+  background-color: #3dcf91;
+}
+
+#via-mint-button:active {
+  background-color: #339269;
+}
+
+#via-currencies {
+  height: 24px;
+  margin-left: 16px;
+  @media (max-width: 800px) {
+    display: flex;
+    align-items: center;
+    width: 40%;
+    height: 24px;
+    margin-left: 6px;
+  }
+  @media (max-width: 400px) {
+    width: 30% !important;
+  }
+  img{
+    @media (max-width: 800px) {
+      margin-top: 0;
+    }
+    @media (max-width: 400px) {
+      width: 20px;
+    }
+  }
+}
+
+#via-currencies img {
+  display: inline-block;
+}
+
+#via-currencies img + img {
+  margin-left: -10px;
+}
+
+#via-by {
+  margin-top: 8px;
+  font-size: 11px;
+  color: #A09DA6;
+}
+
+#via-logo {
+  pointer-events: none;
+  margin-top: 10px;
+  width: 40%;
+  @media (max-width: 800px) {
+    width: 30%;
+  }
+}
