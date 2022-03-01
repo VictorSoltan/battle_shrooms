@@ -7,7 +7,7 @@ import currencyETH from '../assets/button/currency-eth.svg'
 import currencyBNB from '../assets/button/currency-bnb.svg'
 import currencyMATIC from '../assets/button/currency-matic.svg'
 
-import './styles.scss'
+import './mint_button.scss'
 
 // please don't remove `#via-widget` - it is in use
 const widgetDivs = document.querySelectorAll('#via-widget, .via-widget')
@@ -33,9 +33,9 @@ export default function App({ title, amount, unit, set }) {
       <a id="via-mint-button" href={go} target="_blank" rel="noopener noreferrer">
         <span>Mint now</span>
         <span id="via-currencies">
-          <img src={currencyETH} alt="ETH" width="24" height="24" />
-          <img src={currencyBNB} alt="BNB" width="24" height="24" />
-          <img src={currencyMATIC} alt="MATIC" width="24" height="24" />
+          <img src={currencyETH} alt="ETH" />
+          <img src={currencyBNB} alt="BNB" />
+          <img src={currencyMATIC} alt="MATIC" />
         </span>
       </a>
       <p id="via-by">

@@ -108,15 +108,6 @@ export default function HeaderBanner() {
           </div>
           <h2  style={{display: window.innerWidth < 800 ? 'none' : 'block' }}>Mint your first<br/> Shroom, <span>join the<br/> adventure!</span></h2>
           <div className='links' style={{display: window.innerWidth < 800 ? 'none' : 'flex' }}>
-            {[{link: 'http://shrooms.battleverse.io', value: 'MINT'}].map((item, index) => (
-              <a className='mint' key={index} 
-                onMouseDown={e => {e.target.style.fontSize = '16px'; e.target.style.marginInline = '2px'; e.target.style.filter = 'brightness(85%)'}}
-                onMouseLeave={e => {e.target.style.fontSize = '18px'; e.target.style.marginInline = '0px'; e.target.style.filter = 'brightness(100%)'}} 
-                onMouseUp={e => {e.target.style.fontSize = '18px'; e.target.style.marginInline = '0px'; e.target.style.filter = 'brightness(100%)'}} 
-                href={item.link} rel="stylesheet" target="_blank" rel="noopener noreferrer">
-                {item.value}
-              </a>
-            ))}
             <Button />
           </div>          
         </div>
@@ -125,15 +116,6 @@ export default function HeaderBanner() {
           <video controls={false} src={window.innerWidth > 1024 ? Video : VideoAdaptive} loop={true} muted={true} autoPlay={true} playsInline={true} />            
           <h2 style={{display: window.innerWidth < 800 ? 'block' : 'none' }}>Mint your first {window.innerWidth > 800 &&<br/>} Shroom, <span>join the<br/> adventure!</span></h2>
           <div className='links' style={{display: window.innerWidth < 800 ? 'flex' : 'none' }}>
-            {[{link: 'http://shrooms.battleverse.io', value: 'MINT'}].map((item, index) => (
-              <a className='mint' key={index} 
-                onMouseDown={e => {e.target.style.fontSize = '16px'; e.target.style.marginInline = '2px'; e.target.style.filter = 'brightness(85%)'}}
-                onMouseLeave={e => {e.target.style.fontSize = '18px'; e.target.style.marginInline = '0px'; e.target.style.filter = 'brightness(100%)'}} 
-                onMouseUp={e => {e.target.style.fontSize = '18px'; e.target.style.marginInline = '0px'; e.target.style.filter = 'brightness(100%)'}} 
-                href={item.link} target="_blank" rel="noopener noreferrer">
-                {item.value}
-              </a>
-            ))}
             <Button />
           </div>                 
         </div>

@@ -459,9 +459,8 @@
   .links {
     display: flex;
     align-items: flex-start;
-    justify-content: space-between;
     width: 64%;
-    margin: 5em 0;
+    margin: 4.5em 0 2em;
     @media (max-width: 800px) {
       justify-content: flex-start;
       margin: 1.4em 0 1.8em;

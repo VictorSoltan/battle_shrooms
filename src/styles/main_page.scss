@@ -4,14 +4,14 @@
   .youtube_link{
     display: flex;
     flex-direction: column;
-    margin-top: 8em;
+    margin-top: 7em;
     @media (max-width: 1024px) {
       margin-top: 6em;
     }
     h1, h4{
       font-style: normal;
       font-weight: normal;
-      padding-left: 14%;
+      padding-left: 14.6%;
       @media (max-width: 1024px) {
         padding-left: 10.4%;
       }
